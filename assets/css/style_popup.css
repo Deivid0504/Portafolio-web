@@ -13,7 +13,7 @@
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	visibility: hidden;
+	visibility:hidden;
 }
 
 .overlay.active {
@@ -22,16 +22,16 @@
 
 .popup {
 	background: #F8F8F8;
-	/* box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3); */
-	border-radius: 3px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3); 
+	border-radius: 25px;
 	font-family: 'Montserrat', sans-serif;
 	padding: 20px;
 	text-align: center;
 	width: 600px;
 	
-	/* transition: .3s ease all; */
+	transition: .3s ease all; 
 	transform: scale(0.7);
-	/* opacity: 0; */
+	 opacity: 0; 
 }
 
 .popup .btn-cerrar-popup {
@@ -72,8 +72,9 @@
 	font-size: 18px;
 	line-height: 52px;
 	border: none;
+	background-color: #ececec;
 	text-align: center;
-	border: 1px solid #BBBBBB;
+	border-radius: 15px;
 }
 
 .popup form .btn-submit {
@@ -83,7 +84,7 @@
 	border: none;
 	color: #fff;
 	background: #00ed5b;
-	border-radius: 3px;
+	border-radius:10px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	cursor: pointer;
